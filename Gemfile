@@ -6,6 +6,10 @@ ruby '2.6.3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
 # Use sqlite3 as the database for Active Record
+gem 'bootstrap-sass', '3.3.7'
+gem 'sass-rails', '5.0.6'
+gem 'rails-controller-testing'
+
 group :development, :test do
   gem 'sqlite3'
 end
@@ -16,7 +20,7 @@ end
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
