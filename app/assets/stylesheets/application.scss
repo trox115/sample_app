@@ -19,6 +19,11 @@ textarea {
   }
 }
 
+@mixin box_sizing {
+  -moz-box-sizing:    border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing:         border-box;
+}
 
 /* typography */
 
@@ -93,11 +98,14 @@ footer {
     }
   }
 }
+<<<<<<< HEAD
 @mixin box_sizing {
   -moz-box-sizing:    border-box;
   -webkit-box-sizing: border-box;
   box-sizing:         border-box;
 }
+=======
+>>>>>>> master
 
 .debug_dump {
   clear: both;
