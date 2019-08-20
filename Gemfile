@@ -14,7 +14,7 @@ gem 'bcrypt', '3.1.12'
 group :development, :test do
   gem 'sqlite3'
 end
-
+gem 'faker',          '1.7.3'
 group :production do
   gem 'pg'
 end
