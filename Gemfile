@@ -14,7 +14,7 @@ gem 'bcrypt', '3.1.12'
 group :development, :test do
   gem 'sqlite3'
 end
-
+gem 'faker',          '1.7.3'
 group :production do
   gem 'pg'
 end
@@ -73,3 +73,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'will_paginate',           '3.1.7'
+gem 'bootstrap-will_paginate', '1.0.0'
