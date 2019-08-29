@@ -32,6 +32,7 @@ class User < ApplicationRecord
       def show
         @user = User.find(params[:id])
         redirect_to root_url and return unless FILL_IN
+       
       end
     
       # Remembers a user in the database for use in persistent sessions.
