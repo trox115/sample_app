@@ -35,6 +35,9 @@ class User < ApplicationRecord
        
       end
     
+      def feed
+        Micropost.where("user_id = ?", id)
+      end
       # Remembers a user in the database for use in persistent sessions.
       def remember
         self.remember_token = User.new_token
