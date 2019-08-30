@@ -21,6 +21,8 @@ end
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
+gem 'carrierwave',             '>=1.2.2'
+gem 'mini_magick',             '>=4.7.0'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -69,6 +71,7 @@ group :test do
   gem 'selenium-webdriver'
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
+  gem 'fog', '>=1.42'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
